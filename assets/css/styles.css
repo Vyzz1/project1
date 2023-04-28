@@ -295,9 +295,15 @@ body {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
+        width: 100%;
     }
     .button-one{
         margin-bottom: 25px;
+        
+    }
+    .button-outline-one{
+        padding: 16px 42px;
     }
 
 }
