@@ -515,12 +515,25 @@ body {
 
 }
 @media (max-width:575.98px){
+    .section2 .inner-wrap1 ul :nth-child(2){
+        margin: 0;
+        
+    }
     .section2 .inner-wrap1 ul{
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .section2 .inner-des{
         text-align: center;
     }
+    .section2 .inner-wrap1 ul li{
+        width: 100%;
+        margin: 15px 0;
+        text-align: center;
+    }
+  
 
 }
 
