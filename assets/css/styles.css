@@ -604,7 +604,7 @@ body {
 
     .section3 .inner-checkmate ul{
        
-        padding: 0;
+        padding: 5px;
     }
     .section3 .inner-checkmate ul li{
         width: 100%;
@@ -1368,6 +1368,12 @@ body {
 @media (max-width:575.98px){
     .section-form .wrap-button{
         justify-content: center;
+    }
+    .section-form .inner-title{
+        text-align: center;
+    }
+    .section-form .inner-title .inner-content{
+        font-size: 32px !important;
     }
 }
 /*  End Form */
